@@ -40,7 +40,7 @@ A simple Chrome extension that lets you control SoundCloud web player with globa
 
 ## Usage
 
-1. Open [SoundCloud](https://soundcloud.com) in Chrome (or any other Chromium-based browsers)
+1. Open [SoundCloud](https://soundcloud.com) in Chrome (or any other Chromium-based browser)
 2. Play a track
 3. Use the hotkeys to control playback or like/unlike the track
 
@@ -50,7 +50,7 @@ A simple Chrome extension that lets you control SoundCloud web player with globa
 
 - Windows 10/11
 - MacOS (hotkeys may use Command/Option instead of Ctrl/Alt)
-- Chrome browser (or any other Chromium-based browsers)
+- Chrome browser (or any other Chromium-based browser)
 
 ---
 
