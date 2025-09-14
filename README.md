@@ -64,4 +64,4 @@ A simple Chrome extension that lets you control SoundCloud web player with globa
 
 ## License
 
-MIT License
+[MIT License](https://github.com/VaDKustiK/soundcloud-hotkeys/blob/main/LICENSE)
