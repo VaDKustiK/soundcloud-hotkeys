@@ -1,0 +1,48 @@
+{
+  "name": "SoundCloud Hotkeys",
+  "description": "Control SoundCloud with global shortcuts",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "*://soundcloud.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://soundcloud.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "play_pause": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Play/Pause"
+    },
+    "next_track": {
+      "suggested_key": {
+        "default": "Alt+N"
+      },
+      "description": "Next track"
+    },
+    "previous_track": {
+      "suggested_key": {
+        "default": "Alt+B"
+      },
+      "description": "Previous track"
+    },
+    "like_track": {
+      "suggested_key": {
+        "default": "Alt+L"
+      },
+      "description": "Like/Unlike current track"
+    }
+  },
+  "icons": {
+    "128": "icons/sc_hotkeys_icon.png"
+  }
+}
